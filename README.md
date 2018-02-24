@@ -1,20 +1,18 @@
-简单的一个批量分发的一个python开发的一个小工具
-
-
+简单的一个批量分发的一个python3 开发的一个小工具
 settings 是配置文件所在的地方。
 服务器的IP 和 用户名 密码存放的位置
 
 可以执行linux的命令。也可以使用帮助
 
 使用的方式如下：
-G:\python\day9作业\bin>python36 main.py
-G:\python\day9作业
+#python36 bin/main.py
 1 group1 2
 2 group2 3
->>>(eg:group1)group1
+
+##(eg:group1)group1
 h1 192.168.57.128
 h2 192.168.57.129
->>>ls
+ls
 ------------------------192.168.57.129------------------------
 aa
 anaconda-ks.cfg
@@ -29,10 +27,10 @@ anaconda-ks.cfg
 __init__.py
 ls
 
->>>cat aa
+cat aa
 
 上传 :
->>>put cc /root
+put cc /root
 put sucesss
 put sucesss
 >>>
